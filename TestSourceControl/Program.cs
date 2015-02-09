@@ -9,15 +9,16 @@ namespace TestSourceControl
     class Program
     {
 
-        static void HelloWorld()
+        static void HelloWorld(string stringMessage)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(stringMessage);
             Console.ReadLine();  
         }
         
         static void Main(string[] args)
         {
-            HelloWorld();            
+            string helloWorld = "Hello World!";
+            HelloWorld(helloWorld);            
         }
     }
 }
