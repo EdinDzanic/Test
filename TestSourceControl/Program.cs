@@ -8,11 +8,16 @@ namespace TestSourceControl
 {
     class Program
     {
- 
-        static void Main(string[] args)
+
+        static void HelloWorld()
         {
             Console.WriteLine("Hello World!");
-            Console.ReadLine();            
+            Console.ReadLine();  
+        }
+        
+        static void Main(string[] args)
+        {
+            HelloWorld();            
         }
     }
 }
