@@ -20,7 +20,8 @@ namespace TestSourceControl
             string helloWorld = "Hello World!";
 	    string newHello = "New Hello World!";	
             HelloWorld(helloWorld);
-	    HelloWordl(newHello);	            
+	    HelloWordl(newHello);
+	    HelloWorld(helloWorld);		            
         }
     }
 }
