@@ -18,7 +18,10 @@ namespace TestSourceControl
         static void Main(string[] args)
         {
             string helloWorld = "Hello World!";
-            HelloWorld(helloWorld);            
+	    string newHello = "New Hello World!!!";	
+            HelloWorld(helloWorld);
+	    HelloWordl(newHello);
+	    HelloWorld(helloWorld);		            
         }
     }
 }
